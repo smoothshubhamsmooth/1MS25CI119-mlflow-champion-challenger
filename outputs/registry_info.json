@@ -1,0 +1,8 @@
+{
+    "student_name": "Shubham",
+    "student_usn": "1MS25CI119",
+    "registered_model_name": "sentiment-model",
+    "winner": "model_A",
+    "champion_version": "1",
+    "challenger_version": "2"
+}

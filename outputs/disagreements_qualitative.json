@@ -1,0 +1,55 @@
+{
+    "total_disagreements_found": 10,
+    "top_5_qualitative_examples": [
+        {
+            "sample_index": 3,
+            "review_snippet": "I was truly and wonderfully surprised at \"O' Brother, Where Art Thou?\" The video store was out of all the movies I was planning on renting, so then I came across this. I came home and as I watched I became engrossed and found myself laughing out loud. The Coen's have made a magnificiant film again. ...",
+            "reference_label": "POSITIVE (1)",
+            "model_a_prediction": "NEGATIVE (0)",
+            "model_a_confidence": 0.6492,
+            "model_b_prediction": "POSITIVE (1)",
+            "model_b_confidence": 0.9989,
+            "comment": "Model B (RoBERTa-large) correctly classified nuanced sentiment where Model A (DistilBERT) misclassified."
+        },
+        {
+            "sample_index": 17,
+            "review_snippet": "A holiday on a boat, a married couple, an angry waiter and a shipwreck is the reason to this films beginning.<br /><br />I like boobs. No question about that. But when the main character allies with whoever happens to have the most fish at the moment, mostly by having sex with them and playing the r...",
+            "reference_label": "NEGATIVE (0)",
+            "model_a_prediction": "POSITIVE (1)",
+            "model_a_confidence": 0.6862,
+            "model_b_prediction": "NEGATIVE (0)",
+            "model_b_confidence": 0.988,
+            "comment": "Model B (RoBERTa-large) correctly classified nuanced sentiment where Model A (DistilBERT) misclassified."
+        },
+        {
+            "sample_index": 34,
+            "review_snippet": "\"An astronaut (Michael Emmet) dies while returning from a mission and his body is recovered by the military. The base where the dead astronaut is taken to becomes the scene of a bizarre invasion plan from outer space. Alien embryos inside the dead astronaut resurrect the corpse and begin a terrifyin...",
+            "reference_label": "NEGATIVE (0)",
+            "model_a_prediction": "POSITIVE (1)",
+            "model_a_confidence": 0.575,
+            "model_b_prediction": "NEGATIVE (0)",
+            "model_b_confidence": 0.9905,
+            "comment": "Model B (RoBERTa-large) correctly classified nuanced sentiment where Model A (DistilBERT) misclassified."
+        },
+        {
+            "sample_index": 46,
+            "review_snippet": "Late night on BBC1, was on my way to bed but curiosity piqued at a contemporary-set Irish film so I stayed to watch for a few minutes and then stayed to the end. I have to admit that the main attraction was the only English actress, Kelly Reilly, who is stunning to look at.<br /><br />This is billed...",
+            "reference_label": "POSITIVE (1)",
+            "model_a_prediction": "POSITIVE (1)",
+            "model_a_confidence": 0.9848,
+            "model_b_prediction": "NEGATIVE (0)",
+            "model_b_confidence": 0.5543,
+            "comment": "Model A (DistilBERT) matched the reference label whereas Model B (RoBERTa-large) misclassified."
+        },
+        {
+            "sample_index": 55,
+            "review_snippet": "I remember seeing this film in the mid 80's thought it a well paced and well acted piece. I now work quite often in Berkeley Square and the had to get a copy of DVD to remind myself how little the area has changed, although my office is newish it just 30 seconds away from \"the bank\". Even Jack Barcl...",
+            "reference_label": "POSITIVE (1)",
+            "model_a_prediction": "NEGATIVE (0)",
+            "model_a_confidence": 0.9979,
+            "model_b_prediction": "POSITIVE (1)",
+            "model_b_confidence": 0.9987,
+            "comment": "Model B (RoBERTa-large) correctly classified nuanced sentiment where Model A (DistilBERT) misclassified."
+        }
+    ]
+}

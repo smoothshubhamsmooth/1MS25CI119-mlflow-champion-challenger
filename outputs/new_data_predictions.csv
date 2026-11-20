@@ -1,0 +1,9 @@
+text,prediction,confidence,model_version,hf_model_id,student_usn
+The movie was absolutely wonderful and entertaining.,POSITIVE,0.9998862743377686,1,distilbert/distilbert-base-uncased-finetuned-sst-2-english,1MS25CI119
+I regret watching this film. It was painfully boring.,NEGATIVE,0.999599039554596,1,distilbert/distilbert-base-uncased-finetuned-sst-2-english,1MS25CI119
+The actors delivered an incredible performance.,POSITIVE,0.9998745918273926,1,distilbert/distilbert-base-uncased-finetuned-sst-2-english,1MS25CI119
+The storyline made no sense and the ending was awful.,NEGATIVE,0.9998117089271545,1,distilbert/distilbert-base-uncased-finetuned-sst-2-english,1MS25CI119
+I would definitely recommend this movie to everyone.,POSITIVE,0.999531626701355,1,distilbert/distilbert-base-uncased-finetuned-sst-2-english,1MS25CI119
+It was an average movie with nothing particularly special.,NEGATIVE,0.9989219903945923,1,distilbert/distilbert-base-uncased-finetuned-sst-2-english,1MS25CI119
+The cinematography was beautiful and the music was excellent.,POSITIVE,0.9998703002929688,1,distilbert/distilbert-base-uncased-finetuned-sst-2-english,1MS25CI119
+One of the most disappointing films I have ever watched.,NEGATIVE,0.9997860789299011,1,distilbert/distilbert-base-uncased-finetuned-sst-2-english,1MS25CI119
