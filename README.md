@@ -1,6 +1,6 @@
 # Champion–Challenger Model Comparison with Hugging Face and MLflow
 
-- **Student Name:** Shubham
+- **Student Name:** Shubham 
 - **USN:** `1MS25CI119`
 - **Repository Name:** `1MS25CI119-mlflow-champion-challenger`
 - **Task:** Binary Sentiment Classification (`POSITIVE` / `NEGATIVE`)
@@ -101,10 +101,8 @@ python predict_from_mlflow.py
 | **Avg Latency (ms/sample)** | `[Run evaluate.py]` | `[Run evaluate.py]` | `[Run evaluate.py]` |
 | **Total Inference Time (s)** | `[Run evaluate.py]` | `[Run evaluate.py]` | `[Run evaluate.py]` |
 
-## 8. Final Champion–Challenger Decision & Analysis
-*(Will be populated with your exact 150–250 word analysis in Stage 11 once `evaluate.py` finishes running on your machine.)*
 
-## 9. Screenshots
+## 8. Screenshots
 - **MLflow Run Comparison:** `screenshots/mlflow_compare.png`
 - **MLflow Model Registry & Aliases:** `screenshots/mlflow_registry.png`
 - **Inference via `@champion` Alias:** `screenshots/predict_from_mlflow.png`
